@@ -1,4 +1,16 @@
 .logo {
-    margin-top: 40px; 
-    max-width: 380px; 
+  margin-top: 40px; 
+  max-width: 380px;
+  width: 100%;  // Ensure the logo scales based on container width
+
+  // Make it responsive with media queries
+  @media (max-width: 768px) {
+    margin-top: 60px;  // Increase top margin on tablets
+    max-width: 300px;  // Adjust max-width for tablets
   }
+
+  @media (max-width: 480px) {
+    margin-top: 80px;  // Increase top margin on mobile screens
+    max-width: 200px;  // Adjust max-width for mobile
+  }
+}

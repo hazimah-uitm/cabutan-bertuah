@@ -31,11 +31,11 @@ body {
 #app {
   background: linear-gradient(
     240deg,
-    $color-red-step1 0.13%,
-    $color-red-step2 26.19%,
-    $color-red-step3 52.6%,
-    $color-red-step4 79.08%,
-    $color-red-step5 100%
+    #000000 0%,         /* Deep black for a bold start */
+    #1a1a1a 25%,        /* Rich charcoal gray for depth */
+    #2d2d2d 50%,        /* Soft dark gray for smooth transition */
+    #4b4b4b 75%,        /* Metallic gray for elegance */
+    #1c1c1c 100%        /* Deep black for a luxurious finish */
   );
   color: $color-text-light;
   padding: 0 3.125rem;
