@@ -63,3 +63,7 @@ This app works fine under common static web hosting choices. Here's a general ou
 4. Once the build process is complete, you'll need to copy all the generated assets located under the `/dist` directory. The specific command to accomplish this may vary depending on the CI/CD tool and OS you're using. Typically, you'll need to include a step in your pipeline that copies the contents of the `/dist` directory to a storage accessible by your chosen static web hosting service.
 
 5. Lepas build, go to `dist` folder and copy index.html and assets dekat luar. baru publish
+
+6. To push to github 
+- git commit --no-verify -m "message"
+- git push origin main
